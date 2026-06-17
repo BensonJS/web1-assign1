@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- I tried to do exactly what you did on the example part but only added what the assignment requires-->
      <!-- UPDATED: I added all of the required parts of the second assigment. I also fixed of the tags a but, they were unorganized in my opinion and now it looks much better.  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--trying to do exactly what you are trying to do-->
-    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
     <title>HTML Assignment 1</title>
 </head>
 <body>
 <header>
     <!-- UPDATED: I don't know if it affected anything but the end of the header tag was not below my h1 tag, so moved it down. It seemed to not affected much so not sure if it was big deal, bit i switched it anyways. -->
-    <h1> Benson Jolly Saganash</h1>
+    <h1 class="site-title"> Benson Jolly Saganash</h1>
 </header>
    
 <main> 
         <article>
             <h2> Photo of me: </h2>
             <!-- UPDATED: Here is a photo of me, I followed your advice and not adjusted both the width and height of the picture, I just fixed the height only. -->
-                <img src="images/Benson_IMG.PNG" alt="Benson Smiling at the camera." height="400">
+                <img id="my-image" src="images/Benson_IMG.PNG" alt="Benson Smiling at the camera." height="400">
         </article>
 </main>
-<header>
     <h3> My socials </h3>
-</header>
 <nav>
     <!--I don't think I needed to add this on the assignment, but I did it anyways.-->
     <!-- It took me a few minutes to figure the link part but I believe I got it right.-->
@@ -45,8 +45,8 @@
 </nav>
 
     <article>
-        <h2> My Hobbies are: </h2>
-            <ul>
+        <h2> My Hobbies: </h2>
+            <ul class="hobbies">
                  <li> Playing video games with my friends online. </li>
                  <li> Taking photos of my friends and editing them to post on my Instagram. </li>
                  <li> Making short films. </li>
@@ -71,7 +71,7 @@
 <nav>
     <!-- I moved the notes section down here because I liked how it looks, first i had it next to my socials links, but i just did not like how it looked.-->
     <h3> Notes on five tags I have learned: </h3>
-        <ul>
+        <ul class="no-lines">
             <li> 
                 <a href="index.html">Home</a>
             </li>

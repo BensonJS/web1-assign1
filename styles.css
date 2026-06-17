@@ -1,0 +1,52 @@
+body {
+background-color:pink;
+
+color:purple;
+
+font-size: 18px;
+
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header, footer {
+    
+    background-color: Navy;
+    
+}
+
+/* I could change the color in thr same coding because the AI showed me how to do it, but since you put it as two separate points in the requirements, I separented them */
+
+.site-title {
+    color: white;
+    
+}
+
+#my-image {
+    box-shadow: 0 0 1px 2px black;
+
+}
+
+.hobbies {
+    list-style-type: square;
+
+}
+
+/* I didn't know to do the navgation part of the requirements, so i looked it up and your exapmle you did since my brightspace is blocked so I couldn't look at the web stie you gave */
+ .no-lines {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+a {
+    
+    text-decoration: none;
+    text-decoration-color: black;
+    background-color: blueviolet;
+    border: black 2px solid;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+}
+
